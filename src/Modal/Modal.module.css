@@ -1,0 +1,25 @@
+.background {
+  position: fixed;
+  top: 0;
+  botton: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.359);
+  background-color: red;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: #000;
+  padding: 4rem;
+  border: solid 1px red;
+}
+
+h2,
+p {
+  color: #000;
+}
